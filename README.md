@@ -8,5 +8,7 @@ Este repositorio corresponde a la **segunda evaluacion**, el cual consiste en el
 
 # 👥 Integrantes
 
-- Mauro Ortega  
-- Darwin Salazar García  
+- Camila turizo [CC]
+- Mauro Ortega  [CC]
+- Darwin Salazar García [CC]
+- S Uribe[CC]
