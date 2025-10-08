@@ -1,6 +1,6 @@
 # 📖 Descripción
 
-Este repositorio corresponde a la **segunda evaluacion**, el cual consiste en el desarrollo de un **juego de cartas implementado en Java**.
+Este repositorio corresponde a la **segunda evaluacion**, el cual consiste en el desarrollo de un **operador logístico**.
 
 # 📚 Información académica
 
