@@ -14,6 +14,12 @@ public class FrmOperadorLogistico extends JFrame {
     private JTextField txtNumero, txtCliente, txtPeso, txtDistancia;
     private JComboBox<TipoEnvio> cmbTipo;
 
+<<<<<<< HEAD
+=======
+    /**
+     * 
+     */
+>>>>>>> mauricio
     public FrmOperadorLogistico() {
         setTitle("Operador Logístico");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -64,6 +70,10 @@ public class FrmOperadorLogistico extends JFrame {
 
         JButton btnGuardar = addButton(pnlEditar, "Guardar", 345, 80, 120, 26);
         JButton btnCancelar = addButton(pnlEditar, "Cancelar", 470, 80, 120, 26);
+<<<<<<< HEAD
+=======
+        
+>>>>>>> mauricio
 
         btnGuardar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
@@ -105,6 +115,14 @@ public class FrmOperadorLogistico extends JFrame {
         getContentPane().add(pnlMain, BorderLayout.CENTER);
     }
 
+<<<<<<< HEAD
+=======
+    private JButton addButton(JPanel pnlEditar2, String name, String string, int i, int j, int k, int l) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'addButton'");
+    }
+
+>>>>>>> mauricio
     private JButton iconButton(String resourcePath, String tooltip) {
         Image img = new ImageIcon(getClass().getResource(resourcePath))
                 .getImage().getScaledInstance(48, 48, Image.SCALE_SMOOTH);
@@ -149,4 +167,11 @@ public class FrmOperadorLogistico extends JFrame {
             col.setPreferredWidth(prefWidth);
         }
     }
+<<<<<<< HEAD
 }
+=======
+        public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new FrmOperadorLogistico().setVisible(true));
+    }
+}
+>>>>>>> mauricio
