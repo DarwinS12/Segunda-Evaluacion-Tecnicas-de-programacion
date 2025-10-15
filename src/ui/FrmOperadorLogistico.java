@@ -175,3 +175,23 @@ public class FrmOperadorLogistico extends JFrame {
     }
 }
 >>>>>>> mauricio
+private void listarEnvios() {
+    DefaultTableModel model = (DefaultTableModel) tblEnvios.getModel();
+    model.setRowCount(0);
+    
+    for (Envio envio : logistica.getEnvios()) {
+        String tipo = "";
+        if (envio instanceof Terrestre) tipo = "Terrestre";
+        else if (envio instanceof Aereo) tipo = "Aéreo";
+        else if (envio instanceof Maritimo) tipo = "Marítimo";
+        
+        model.addRow(new Object[]{
+            tipo,
+            envio.getCodigo(),
+            envio.getCliente(),
+            envio.getPeso(),
+            envio.getDistancia(),
+            envio.calcularTarifa()
+        });
+    }
+}
